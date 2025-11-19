@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #5F8B4C 0%, #FF9A9A 100%);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, #5F8B4C 0%, #FF9A9A 100%);
+    color: white;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+header figure {
+    margin: 0 0 20px 0;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header p {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+article {
+    padding: 40px 30px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #5F8B4C;
+    border-bottom: 3px solid #FF9A9A;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 12px 0;
+    color: #333;
+}
+
+td:first-child {
+    width: 40%;
+    color: #555;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #FF9A9A;
+}
+
+address {
+    font-style: normal;
+    display: inline;
+}
+
+a {
+    color: #5F8B4C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pendidikan-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #FF9A9A;
+    border-radius: 8px;
+    border-left: 4px solid #5F8B4C;
+}
+
+.pendidikan-item h3 {
+    margin: 0 0 5px 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.pendidikan-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.favo-singer {
+    background-color: #5F8B4C;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.hobi-text {
+    color: #666;
+    line-height: 1.8;
+    margin: 0;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
